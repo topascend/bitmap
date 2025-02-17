@@ -1,4 +1,4 @@
-module github.com/vcaesar/bitmap
+module github.com/topascend/bitmap
 
 go 1.22.0
 
