@@ -15,7 +15,7 @@ import (
 	"log"
 
 	"github.com/go-vgo/robotgo"
-	"github.com/vcaesar/bitmap"
+	"github.com/topascend/bitmap"
 	"github.com/vcaesar/imgo"
 )
 
