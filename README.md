@@ -9,7 +9,7 @@ import (
   "fmt"
 
   "github.com/go-vgo/robotgo"
-  "github.com/vcaesar/bitmap"
+  "github.com/topascend/bitmap"
 )
 
 func main() {
