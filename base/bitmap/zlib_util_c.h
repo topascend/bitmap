@@ -1,5 +1,6 @@
 #include "zlib_util.h"
-#include <zlib.h>
+//#include <zlib.h>
+#include "../../cdeps/win/zlib.h"
 #include <stdio.h> /* fprintf() */
 #include <stdlib.h> /* malloc() */
 #include <assert.h>
