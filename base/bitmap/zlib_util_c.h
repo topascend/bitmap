@@ -1,6 +1,21 @@
 #include "zlib_util.h"
 //#include <zlib.h>
-#include "../../cdeps/win/zlib.h"
+#if defined(IS_WINDOWS)
+	#include "../../cdeps/win/zlib.h"
+#else
+    #include <zlib.h>
+#endif
+
+
+#if defined(IS_MACOSX)
+	#include "../../cdeps/mac/png.h"
+#elif defined(USE_X11)
+	#include <png.h>
+#elif defined(IS_WINDOWS)
+	#include "../../cdeps/win/png.h"
+#endif
+
+
 #include <stdio.h> /* fprintf() */
 #include <stdlib.h> /* malloc() */
 #include <assert.h>
